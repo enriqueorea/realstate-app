@@ -20,7 +20,7 @@ export const DashboardLayout: FC<IProps> = ({ children, titlePage }) => {
 			<aside>
 				<Sidebar />
 			</aside>
-			<main>{children}</main>
+			<main className="pl-[275px] pr-[25px] pt-16">{children}</main>
 		</>
 	);
 };
